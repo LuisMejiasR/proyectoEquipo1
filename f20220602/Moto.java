@@ -1,6 +1,7 @@
 package com.generation.f20220602;
 
 public class Moto {
+    //soporte
     private Boolean soporte;
     private String tipoMoto;
     private String posicionConduccion;
