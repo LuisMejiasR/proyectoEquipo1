@@ -1,95 +1,117 @@
 package com.generation.f20220602;
 
 public class VehiculoTerrestre {
+    //atributos:
+    // numeroRuedas,
     private int numRuedas;
+
     // color,
     private String color;
+
     // modelo,
     private String modelo;
+
     // capacidadPersonas,
     private int capacidadPersonas;
+
     // motor,
     private Boolean motor;
+
     // numeroDeSerie.
     private String numDeSerie;
-	
-    //constructores
+
+    //ConstructorVacio
+
     public VehiculoTerrestre() {
-		super();
-	}
+    }
 
-	public VehiculoTerrestre(Integer numRuedas, String color, String modelo, int capacidadPersonas, Boolean motor,
-			String numDeSerie) {
-		super();
-		this.numRuedas = numRuedas;
-		this.color = color;
-		this.modelo = modelo;
-		this.capacidadPersonas = capacidadPersonas;
-		this.motor = motor;
-		this.numDeSerie = numDeSerie;
-	}
-    //getter y setter
 
-	public Integer getNumRuedas() {
-		return numRuedas;
-	}
+    //constructorConParametros
 
-	public void setNumRuedas(Integer numRuedas) {
-		this.numRuedas = numRuedas;
-	}
+    public VehiculoTerrestre(int numRuedas, String color, String modelo, int capacidadPersonas, Boolean motor, String numDeSerie) {
+        this.numRuedas = numRuedas;
+        this.color = color;
+        this.modelo = modelo;
+        this.capacidadPersonas = capacidadPersonas;
+        this.motor = motor;
+        this.numDeSerie = numDeSerie;
+    }
 
-	public String getColor() {
-		return color;
-	}
 
-	public void setColor(String color) {
-		this.color = color;
-	}
+    //Getter & Setter
 
-	public String getModelo() {
-		return modelo;
-	}
+    public int getNumRuedas() {
+        return numRuedas;
+    }
 
-	public void setModelo(String modelo) {
-		this.modelo = modelo;
-	}
+    public void setNumRuedas(int numRuedas) {
+        this.numRuedas = numRuedas;
+    }
 
-	public int getCapacidadPersonas() {
-		return capacidadPersonas;
-	}
+    public String getColor() {
+        return color;
+    }
 
-	public void setCapacidadPersonas(int capacidadPersonas) {
-		this.capacidadPersonas = capacidadPersonas;
-	}
+    public void setColor(String color) {
+        this.color = color;
+    }
 
-	public Boolean getMotor() {
-		return motor;
-	}
+    public String getModelo() {
+        return modelo;
+    }
 
-	public void setMotor(Boolean motor) {
-		this.motor = motor;
-	}
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
 
-	public String getNumDeSerie() {
-		return numDeSerie;
-	}
+    public int getCapacidadPersonas() {
+        return capacidadPersonas;
+    }
 
-	public void setNumDeSerie(String numDeSerie) {
-		this.numDeSerie = numDeSerie;
-	}
+    public void setCapacidadPersonas(int capacidadPersonas) {
+        this.capacidadPersonas = capacidadPersonas;
+    }
 
-	@Override
-	public String toString() {
-		return "VehiculoTerrestre [numRuedas=" + numRuedas + ", color=" + color + ", modelo=" + modelo
-				+ ", capacidadPersonas=" + capacidadPersonas + ", motor=" + motor + ", numDeSerie=" + numDeSerie + "]";
-	}
-    
-	//funcion
-	
-	public void acelerar() {
-		System.out.println("ChacaChacaChaca");
-	}
-	
-	
-	
+    public Boolean getMotor() {
+        return motor;
+    }
+
+    public void setMotor(Boolean motor) {
+        this.motor = motor;
+    }
+
+    public String getNumDeSerie() {
+        return numDeSerie;
+    }
+
+    public void setNumDeSerie(String numDeSerie) {
+        this.numDeSerie = numDeSerie;
+    }
+
+
+    //toString
+    @Override
+    public String toString() {
+        return "VehiculoTerrestre{" +
+                "numRuedas=" + numRuedas +
+                ", color='" + color + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", capacidadPersonas=" + capacidadPersonas +
+                ", motor=" + motor +
+                ", numDeSerie='" + numDeSerie + '\'' +
+                '}';
+    }
+
+
+    //Metodo Acelerar
+    public String acelerar(){
+
+        System.out.println("Chaca Chaca Chaca");
+        return "Chaca Chaca Chaca";
+    }
+
+
+
+
+
 }

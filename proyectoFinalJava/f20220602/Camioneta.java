@@ -1,7 +1,6 @@
 package com.generation.f20220602;
 
 public class Camioneta extends VehiculoTerrestre{
-
     //atributos
     private Boolean calefaccion;
     private int numPuertas;
@@ -69,14 +68,15 @@ public class Camioneta extends VehiculoTerrestre{
     }
 
     //Polimorfismo
-    public void acelerar() {
+    public String acelerar() {
         System.out.println("Bruuuum");
+        return "Bruuuum";
     }
 
     //Funcion
-    public void aireAcondicionado() {
-        System.out.println("Posee calefacci�n.");
+    public String aireAcondicionado() {
+        System.out.println("Posee calefacción.");
+        return "Posee calefacción.";
     }
-
 
 }

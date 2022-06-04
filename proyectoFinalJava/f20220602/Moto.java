@@ -1,7 +1,6 @@
 package com.generation.f20220602;
 
-public class Moto extends VehiculoTerrestre  {
-    //Motito
+public class Moto extends VehiculoTerrestre{
     private Boolean soporte;
     private String tipoMoto;
     private String posicionConduccion;
@@ -49,33 +48,13 @@ public class Moto extends VehiculoTerrestre  {
     }
 
 
-    public void acelerar() {
+    public String acelerar() {
         System.out.println("Fiiiiuuuuum");
+        return "Fiiiiuuuuum";
     }
 
-    public void baseApoyo() {
+    public Boolean baseApoyo() {
         System.out.println("Si, tu moto tiene patita");
+        return true;
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
