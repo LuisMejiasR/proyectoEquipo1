@@ -1,6 +1,0 @@
-dentro de mi rama
-git add . git commit git push
-
-
-dentro de la rama main
-git merge "nombre de la rama" 
