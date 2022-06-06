@@ -1,7 +1,8 @@
 package com.generation.proyectoFinalJava;
 
 public class VehiculoTerrestre {
-    private int numRuedas;
+    //numero de ruedas,
+	private int numRuedas;
     // color,
     private String color;
     // modelo,

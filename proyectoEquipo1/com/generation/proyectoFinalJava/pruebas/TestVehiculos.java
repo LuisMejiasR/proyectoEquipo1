@@ -55,6 +55,7 @@ public class TestVehiculos {
         Boolean prueba5 = camioneta.aireAcondicionado();
         
         assertEquals(true, prueba5);
+        
     }
 
 }
